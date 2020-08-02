@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"/>
+    <link href="dist/style/style.css" rel="stylesheet"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script>
+       var count = 1;
+       var countEl = document.getElementById("count").value;
+        function plus(){
+            count++;
+            alert(count);
+            countEl = count;
+        }
+        function minus(){
+        if (count > 1) {
+            count--;
+            countEl = count;
+        } 
+ }
+        
+    
+    </script>
+    </head>
+    <body>
+        <div class="container">
+             <div class="container-full">
+                <img src="asset/ORGANIC-VEGETABLECLUB.jpg" width="100" height="100" /> 
+                <div id="input_div pull-left">
+                    <input type="text" size="25" value="1" id="count" width="20" height="20">
+                    <input type="button" value="-" id="moins" onclick="minus()">
+                    <input type="button" value="+" id="plus" onclick="plus()">
+                </div>
+             </div>
+
+             <div class="container-full">
+                <img src="asset/2.jpg" width="100" height="100" />
+                <div id="input_div pull-left">
+                    <input type="text" size="25" value="1" id="count" width="20" height="20">
+                    <input type="button" value="-" id="moins" onclick="minus()">
+                    <input type="button" value="+" id="plus" onclick="plus()">
+                </div>
+             </div>
+
+             <div class="container-full">
+                <img src="asset/3.jpg" width="100" height="100" />
+                <div id="input_div pull-left">
+                    <input type="text" size="25" value="1" id="count" width="20" height="20">
+                    <input type="button" value="-" id="moins" onclick="minus()">
+                    <input type="button" value="+" id="plus" onclick="plus()">
+                </div>
+             </div>
+              
+             
+              
+
+        </div>
+
+
+
+
+    </body>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>
